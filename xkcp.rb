@@ -2,7 +2,7 @@ class Xkcp < Formula
   desc "Extended Keccak Code Package"
   homepage "https://github.com/XKCP/XKCP"
   license "NOASSERTION"
-  head "https://github.com/hadielyakhni/XKCP.git", branch: "master"
+  head "https://github.com/XKCP/XKCP.git", branch: "master"
 
   def install
     system "make", "generic64/libXKCP.a"
